@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="091c9b5c-def4-4265-aaca-2d283c30a22e" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kai/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kai/Image.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" afterDir="false" />
     </list>
     <list id="57287157-1a03-4d47-80ac-e513004c53aa" name="added anti-aliased analogs to existing ImageDraw methods" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" afterDir="false" />
     </list>
-    <list id="0fa9149f-335b-40ad-b23e-2b5727153f85" name="docs" comment="added documentation">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" afterDir="false" />
-    </list>
+    <list id="0fa9149f-335b-40ad-b23e-2b5727153f85" name="docs" comment="added documentation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,12 +61,8 @@
     <file path="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java">
       <ranges>
         <range start1="2" end1="2" start2="2" end2="3" changelist="091c9b5c-def4-4265-aaca-2d283c30a22e" />
-        <range start1="11" end1="11" start2="12" end2="19" changelist="0fa9149f-335b-40ad-b23e-2b5727153f85" />
-        <range start1="15" end1="15" start2="23" end2="29" changelist="0fa9149f-335b-40ad-b23e-2b5727153f85" />
-        <range start1="18" end1="19" start2="32" end2="33" changelist="091c9b5c-def4-4265-aaca-2d283c30a22e" />
-        <range start1="22" end1="22" start2="36" end2="45" changelist="0fa9149f-335b-40ad-b23e-2b5727153f85" />
-        <range start1="47" end1="47" start2="70" end2="76" changelist="0fa9149f-335b-40ad-b23e-2b5727153f85" />
-        <range start1="78" end1="78" start2="107" end2="268" changelist="57287157-1a03-4d47-80ac-e513004c53aa" />
+        <range start1="31" end1="32" start2="32" end2="33" changelist="091c9b5c-def4-4265-aaca-2d283c30a22e" />
+        <range start1="106" end1="106" start2="107" end2="268" changelist="57287157-1a03-4d47-80ac-e513004c53aa" />
       </ranges>
     </file>
   </component>
@@ -143,7 +134,7 @@
       <workItem from="1673655190896" duration="1199000" />
       <workItem from="1673676795274" duration="10954000" />
       <workItem from="1673762380164" duration="8008000" />
-      <workItem from="1673827701177" duration="4901000" />
+      <workItem from="1673827701177" duration="5342000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1673688117064</created>
