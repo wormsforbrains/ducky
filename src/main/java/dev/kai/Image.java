@@ -9,8 +9,6 @@ import static java.awt.image.BufferedImage.TYPE_3BYTE_BGR;
 import static java.awt.image.BufferedImage.TYPE_BYTE_BINARY;
 
 public class Image {
-    // TODO: Add documentation
-
     public enum ImageMode {
         BINARY, RGB
     }
