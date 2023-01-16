@@ -71,7 +71,7 @@ public class Image {
         int type = switch (mode) {
             case BINARY -> TYPE_BYTE_BINARY;
             case RGB -> TYPE_3BYTE_BGR;
-            default -> throw new IllegalArgumentException("Invalid mode: " + mode);
+            default -> throw new IllegalArgumentException("Illegal mode: " + mode);
         };
         BufferedImage image = new BufferedImage(width, height, type);
         return new Image(image, mode, width, height);
