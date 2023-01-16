@@ -249,4 +249,21 @@ public class ImageDraw {
             }
         }
     }
+
+
+    /**
+     * Blend two colors together using a specified alpha value.
+     *
+     * @param existingColor The existing color that will be blended with the new color.
+     * @param newColor      The new color that will be blended with the existing color.
+     * @param alpha         The alpha value used to blend the colors. Should be a value between 0 and 1.
+     * @return The blended color.
+     */
+    private Color blendColors(int existingColor, int newColor, float alpha) {
+        int red = (int) ((newColor >> 16) * alpha + (1 - alpha) * ((existingColor >> 16) & 0xff));
+        int green = (int) ((newColor >> 8) * alpha + (1 - alpha) * ((existingColor >> 8) & 0xff));
+        int blue = (int) ((newColor & 0xff) * alpha + (1 - alpha) * (existingColor & 0xff));
+
+        return new Color(red, green, blue);
+    }
 }
