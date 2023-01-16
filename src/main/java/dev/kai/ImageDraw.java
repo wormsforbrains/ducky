@@ -1,5 +1,6 @@
 package dev.kai;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class ImageDraw {
@@ -29,7 +30,7 @@ public class ImageDraw {
     public void pixels(Integer[][] pixels, int color) {
         BufferedImage img = image.getBuffer();
         for (var pixel : pixels) {
-            image.getBuffer().setRGB(pixel[0], pixel[1], color);
+            img.setRGB(pixel[0], pixel[1], color);
         }
     }
 
