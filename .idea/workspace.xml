@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="091c9b5c-def4-4265-aaca-2d283c30a22e" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" afterDir="false" />
-    </list>
-    <list id="57287157-1a03-4d47-80ac-e513004c53aa" name="added anti-aliased analogs to existing ImageDraw methods" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java" afterDir="false" />
-    </list>
-    <list id="0fa9149f-335b-40ad-b23e-2b5727153f85" name="docs" comment="added documentation" />
+    <list default="true" id="4b79c604-278a-4592-9345-4913ff147490" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,15 +50,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://C:/programs/jdk-18.0.2.1/lib/src.zip!/java.base/java/lang/EnumConstantNotPresentException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://C:/programs/jdk-18.0.2.1/lib/src.zip!/java.desktop/java/awt/image/BufferedImage.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/dev/kai/ImageDraw.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="091c9b5c-def4-4265-aaca-2d283c30a22e" />
-        <range start1="31" end1="32" start2="32" end2="33" changelist="091c9b5c-def4-4265-aaca-2d283c30a22e" />
-        <range start1="106" end1="106" start2="107" end2="268" changelist="57287157-1a03-4d47-80ac-e513004c53aa" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -122,9 +107,9 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="091c9b5c-def4-4265-aaca-2d283c30a22e" name="Changes" comment="" />
-      <changelist id="0fa9149f-335b-40ad-b23e-2b5727153f85" name="docs" comment="added documentation" />
-      <changelist id="57287157-1a03-4d47-80ac-e513004c53aa" name="added anti-aliased analogs to existing ImageDraw methods" comment="" />
+      <changelist id="" name="Changes" comment="" />
+      <changelist id="" name="docs" comment="added documentation" />
+      <changelist id="" name="added anti-aliased analogs to existing ImageDraw methods" comment="" />
       <created>1673487597854</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -134,7 +119,7 @@
       <workItem from="1673655190896" duration="1199000" />
       <workItem from="1673676795274" duration="10954000" />
       <workItem from="1673762380164" duration="8008000" />
-      <workItem from="1673827701177" duration="5342000" />
+      <workItem from="1673827701177" duration="5903000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1673688117064</created>
