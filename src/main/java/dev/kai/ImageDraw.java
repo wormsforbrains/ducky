@@ -186,4 +186,67 @@ public class ImageDraw {
             }
         }
     }
+
+    /**
+     * Draws a circle on the image.
+     *
+     * @param x      The x-coordinate of the center of the circle.
+     * @param y      The y-coordinate of the center of the circle.
+     * @param radius The radius of the circle.
+     * @param color  The color of the circle.
+     */
+    public void circle(int x, int y, int radius, int color) {
+        BufferedImage img = image.getBuffer();
+        int x0 = x;
+        int y0 = y;
+        int f = 1 - radius;
+        int ddF_x = 0;
+        int ddF_y = -2 * radius;
+        x = 0;
+        y = radius;
+
+        img.setRGB(x0, y0 + radius, color);
+        img.setRGB(x0, y0 - radius, color);
+        img.setRGB(x0 + radius, y0, color);
+        img.setRGB(x0 - radius, y0, color);
+
+        while (x < y) {
+            if (f >= 0) {
+                y--;
+                ddF_y += 2;
+                f += ddF_y;
+            }
+            x++;
+            ddF_x += 2;
+            f += ddF_x + 1;
+
+            img.setRGB(x0 + x, y0 + y, color);
+            img.setRGB(x0 - x, y0 + y, color);
+            img.setRGB(x0 + x, y0 - y, color);
+            img.setRGB(x0 - x, y0 - y, color);
+            img.setRGB(x0 + y, y0 + x, color);
+            img.setRGB(x0 - y, y0 + x, color);
+            img.setRGB(x0 + y, y0 - x, color);
+            img.setRGB(x0 - y, y0 - x, color);
+        }
+    }
+
+    /**
+     * Draws a filled disc on the image.
+     *
+     * @param x      The x-coordinate of the center of the disc.
+     * @param y      The y-coordinate of the center of the disc.
+     * @param radius The radius of the disc.
+     * @param color  The color of the disc.
+     */
+    public void disc(int x, int y, int radius, int color) {
+        BufferedImage img = image.getBuffer();
+        for (int i = -radius; i <= radius; i++) {
+            for (int j = -radius; j <= radius; j++) {
+                if (i * i + j * j <= radius * radius) {
+                    img.setRGB(x + i, y + j, color);
+                }
+            }
+        }
+    }
 }
